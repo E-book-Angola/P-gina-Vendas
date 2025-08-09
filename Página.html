@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como Ganhar Dinheiro com o Telefone em Angola - Ebook 2024</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        .header {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 15px 0;
+            text-align: center;
+            color: white;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .header h1 {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: white;
+            padding: 120px 0 80px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,107,107,0.1) 0%, transparent 70%);
+            animation: float 6s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(180deg); }
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+
+        .hero-text {
+            flex: 1;
+            min-width: 300px;
+            text-align: left;
+        }
+
+        .ebook-cover {
+            width: 320px;
+            height: 450px;
+            background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+            border-radius: 15px;
+            box-shadow: 0 25px 50px rgba(255,107,107,0.3);
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-align: center;
+            padding: 40px 20px;
+            transform: perspective(1000px) rotateY(-10deg);
+            transition: transform 0.3s ease;
+            position: relative;
+        }
+
+        .ebook-cover::before {
+            content: '📱';
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .ebook-cover:hover {
+            transform: perspective(1000px) rotateY(0deg) scale(1.05);
+        }
+
+        .hero h2 {
+            font-size: 3.2rem;
+            margin-bottom: 20px;
+            color: #333;
+            font-weight: bold;
+            line-height: 1.2;
+        }
+
+        .hero .subtitle {
+            font-size: 1.4rem;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .stats {
+            display: flex;
+            gap: 30px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #ff6b6b;
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* CTA Button */
+        .cta-button {
+            background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+            color: white;
+            padding: 20px 50px;
+            font-size: 1.3rem;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin: 20px 10px;
+            box-shadow: 0 10px 30px rgba(255,107,107,0.4);
+            transition: all 0.3s ease;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: left 0.5s;
+        }
+
+        .cta-button:hover::before {
+            left: 100%;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(255,107,107,0.6);
+        }
+
+        .price {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #ff6b6b;
+            margin: 20px 0;
+        }
+
+        .original-price {
+            font-size: 1.8rem;
+            color: #999;
+            text-decoration: line-through;
+            margin-right: 10px;
+        }
+
+        /* Problem Section */
+        .problem {
+            background: #f8f9fa;
+            padding: 80px 0;
+        }
+
+        .problem h2 {
+            text-align: center;
+            font-size: 2.8rem;
+            margin-bottom: 40px;
+            color: #333;
+        }
+
+        .problem-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .problem-card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .problem-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .problem-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        /* Benefits Section */
+        .benefits {
+            background: white;
+            padding: 80px 0;
+        }
+
+        .benefits h2 {
+            text-align: center;
+            font-size: 2.8rem;
+            margin-bottom: 60px;
+            color: #333;
+        }
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+        }
+
+        .benefit-card {
+            padding: 30px;
+            border-left: 5px solid #ff6b6b;
+            background: #f8f9fa;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .benefit-card:hover {
+            background: #fff;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .benefit-icon {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            color: #ff6b6b;
+        }
+
+        .benefit-card h3 {
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        /* Success Stories */
+        .success-stories {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 80px 0;
+        }
+
+        .success-stories h2 {
+            text-align: center;
+            font-size: 2.8rem;
+            margin-bottom: 60px;
+        }
+
+        .stories-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .story-card {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: 15px;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .story-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .story-avatar {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            margin-right: 15px;
+        }
+
+        .story-info h4 {
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+        }
+
+        .story-location {
+            opacity: 0.8;
+            font-size: 0.9rem;
+        }
+
+        .story-result {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #ffeb3b;
+            margin: 15px 0;
+        }
+
+        /* Contents Section */
+        .contents {
+            background: #f8f9fa;
+            padding: 80px 0;
+        }
+
+        .contents h2 {
+            text-align: center;
+            font-size: 2.8rem;
+            margin-bottom: 60px;
+            color: #333;
+        }
+
+        .chapters-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+        }
+
+        .chapter-card {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .chapter-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .chapter-number {
+            background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .chapter-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .chapter-card p {
+            color: #666;
+            font-size: 0.95rem;
+        }
+
+        /* Guarantee Section */
+        .guarantee {
+            background: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .guarantee-box {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 40px;
+            border: 3px solid #ff6b6b;
+            border-radius: 20px;
+            background: linear-gradient(135deg, #ff6b6b10, #ee5a2410);
+        }
+
+        .guarantee-icon {
+            font-size: 4rem;
+            color: #ff6b6b;
+            margin-bottom: 20px;
+        }
+
+        /* Final CTA */
+        .final-cta {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .final-cta h2 {
+            font-size: 3rem;
+            margin-bottom: 30px;
+        }
+
+        .urgency {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 30px 0;
+            font-size: 1.1rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero-content {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .hero-text {
+                text-align: center;
+            }
+
+            .hero h2 {
+                font-size: 2.5rem;
+            }
+
+            .stats {
+                justify-content: center;
+            }
+
+            .ebook-cover {
+                width: 280px;
+                height: 390px;
+            }
+
+            .chapters-grid,
+            .benefits-grid,
+            .problem-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Floating WhatsApp */
+        .whatsapp-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 40px;
+            right: 40px;
+            background-color: #25d366;
+            color: white;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+            animation: pulse 2s infinite;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="container">
+            <h1>📱 Como Ganhar Dinheiro com o Telefone em Angola</h1>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2>Transforme Seu Smartphone numa<br><span style="color: #ff6b6b;">Máquina de Dinheiro</span></h2>
+                    <p class="subtitle">O guia definitivo para jovens empreendedores digitais em Angola. Estratégias testadas e comprovadas para gerar entre 50.000 a 500.000 Kz mensais!</p>
+                    
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="stat-number">200+</span>
+                            <span class="stat-label">Jovens Testaram</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">18</span>
+                            <span class="stat-label">Meses Pesquisa</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">10</span>
+                            <span class="stat-label">Capítulos Práticos</span>
+                        </div>
+                    </div>
+
+                    <div style="margin: 30px 0;">
+                        <span class="original-price">De: 3.500 Kzs</span>
+                        <span class="price">Por: 2.500 Kzs</span>
+                    </div>
+
+                    <a href="https://pay.kuenha.com/c4c244bc-f445-47f9-9d4f-e91e9a313c24" target="_blank" class="cta-button">💰 Quero Começar Agora!</a>
+                </div>
+                
+                <div class="ebook-cover">
+                    <div style="text-align: center;">
+                        <h3>COMO GANHAR DINHEIRO COM O TELEFONE EM ANGOLA</h3>
+                        <p style="margin: 20px 0; opacity: 0.9;">EDIÇÃO 2024</p>
+                        <p style="font-size: 1rem;">Guia Prático e Testado</p>
+                        <p style="margin-top: 30px; font-size: 0.9rem;">O Guia Definitivo para Jovens Empreendedores Digitais</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="problem">
+        <div class="container">
+            <h2>🚨 Estes Problemas Te Soam Familiar?</h2>
+            
+            <div class="problem-grid">
+                <div class="problem-card">
+                    <div class="problem-icon">😰</div>
+                    <h3>Desemprego Crescente</h3>
+                    <p>Cada vez mais difícil encontrar emprego tradicional em Angola</p>
+                </div>
+                
+                <div class="problem-card">
+                    <div class="problem-icon">💸</div>
+                    <h3>Salários Baixos</h3>
+                    <p>Mesmo quando há trabalho, os salários não cobrem as necessidades básicas</p>
+                </div>
+                
+                <div class="problem-card">
+                    <div class="problem-icon">❓</div>
+                    <h3>Falta de Orientação</h3>
+                    <p>Não sabe por onde começar no mundo digital e tem medo de ser enganado</p>
+                </div>
+                
+                <div class="problem-card">
+                    <div class="problem-icon">⏰</div>
+                    <h3>Tempo Perdido</h3>
+                    <p>Passa horas no telefone sem gerar nenhuma renda com isso</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits">
+        <div class="container">
+            <h2>🎯 O Que Você Vai Conseguir</h2>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">💰</div>
+                    <h3>Renda Extra Garantida</h3>
+                    <p>Estratégias testadas para gerar entre 50.000 a 500.000 Kz mensais usando apenas seu smartphone</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">📱</div>
+                    <h3>Trabalhe de Qualquer Lugar</h3>
+                    <p>Só precisa do seu telefone e internet. Trabalhe de casa, no transporte ou em qualquer lugar</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">🚀</div>
+                    <h3>Comece Hoje Mesmo</h3>
+                    <p>Passo a passo detalhado para começar imediatamente, mesmo sem experiência</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">🎯</div>
+                    <h3>Específico para Angola</h3>
+                    <p>Estratégias adaptadas para a realidade angolana, testadas por jovens locais</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">📈</div>
+                    <h3>Resultados Comprovados</h3>
+                    <p>Baseado em 18 meses de pesquisa com mais de 200 jovens empreendedores</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">🛠️</div>
+                    <h3>Ferramentas Gratuitas</h3>
+                    <p>Todas as ferramentas necessárias são gratuitas ou de baixo custo</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Stories -->
+    <section class="success-stories">
+        <div class="container">
+            <h2>🏆 Casos de Sucesso Reais</h2>
+            
+            <div class="stories-grid">
+                <div class="story-card">
+                    <div class="story-header">
+                        <div class="story-avatar">J</div>
+                        <div class="story-info">
+                            <h4>João das Capas</h4>
+                            <div class="story-location">Luanda, 19 anos</div>
+                        </div>
+                    </div>
+                    <p>"Era estudante sem renda. Comecei vendendo capas pelo WhatsApp com fotos bonitas e atendimento honesto."</p>
+                    <div class="story-result">400.000 Kz/mês em 6 meses!</div>
+                </div>
+                
+                <div class="story-card">
+                    <div class="story-header">
+                        <div class="story-avatar">C</div>
+                        <div class="story-info">
+                            <h4>Carlos - Marketing Digital</h4>
+                            <div class="story-location">Huambo, 27 anos</div>
+                        </div>
+                    </div>
+                    <p>"Estava desempregado. Me especializei em marketing digital para Huambo e hoje tenho agência própria."</p>
+                    <div class="story-result">800.000 Kz/mês!</div>
+                </div>
+                
+                <div class="story-card">
+                    <div class="story-header">
+                        <div class="story-avatar">B</div>
+                        <div class="story-info">
+                            <h4>Beatriz - Dropshipping</h4>
+                            <div class="story-location">Benguela, 25 anos</div>
+                        </div>
+                    </div>
+                    <p>"Funcionária com 45.000 Kz/mês. Comecei dropshipping e hoje tenho múltiplas fontes de renda."</p>
+                    <div class="story-result">830.000 Kz/mês!</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contents -->
+    <section class="contents">
+        <div class="container">
+            <h2>📚 O Que Você Vai Aprender</h2>
+            
+            <div class="chapters-grid">
+                <div class="chapter-card">
+                    <div class="chapter-number">01</div>
+                    <h3>Preparando seu telefone para o sucesso</h3>
+                    <p>Apps essenciais, configurações e gestão inteligente de dados móveis</p>
+                </div>
+                
+                <div class="chapter-card">
+                    <div class="chapter-number">02</div>
+                    <h3>Dominando as vendas pelo WhatsApp</h3>
+                    <p>Scripts comprovados, perfil comercial e metodologia dos 3C's</p>
+                </div>
+                
+                <div class="chapter-card">
+                    <div class="chapter-number">03</div>
+                    <h3>Serviços digitais que geram renda</h3>
+                    <p>Design gráfico, edição de vídeos e assistência virtual</p>
+                </div>
+                
+                <div class="chapter-card">
+                    <div class="chapter-number">04</div>
+                    <h3>Marketing digital local eficaz</h3>
+                    <p>Gestão de redes sociais e campanhas para negócios angolanos</p>
+                </div>
+                
+                <div class="chapter-card">
+                    <div class="chapter-number">05</div>
+                    <h3>Dropshipping adaptado para Angola</h3>
+                    <p>Produtos com maior potencial e estratégias de transparência</p>
+                </div>
+                
+                <div class="chapter-card">
+                    <div class="chapter-number">06</div>
+                    <h3>Monetizando seu conhecimento</h3>
+                    <p>Cursos online, consultoria e mentoria em nichos valorizados</p>
+                </div>
+                
+                <div class="chapter-card">
+                    <div class="chapter-number">07</div>
+                    <h3>Fintech e educação financeira</h3>
+                    <p>Oportunidades no setor financeiro digital angolano</p>
+                </div>
+                
+                <div class="chapter-card">
+                    <div class="chapter-number">08</div>
+                    <h3>Criação de conteúdo que monetiza</h3>
+                    <p>Instagram, TikTok, YouTube e podcast para audiência angolana</p>
+                </div>
+                
+                <div class="chapter-card">
+                    <div class="chapter-number">09</div>
+                    <h3>Casos de sucesso verificados</h3>
+                    <p>Histórias reais com números exatos e lições aplicáveis</p>
+                </div>
+                
+                <div class="chapter-card">
+                    <div class="chapter-number">10</div>
+                    <h3>Ferramentas e recursos essenciais</h3>
+                    <p>Kit completo organizado por fase de crescimento</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guarantee -->
+    <section class="guarantee">
+        <div class="container">
+            <div class="guarantee-box">
+                <div class="guarantee-icon">🛡️</div>
+                <h2>Garantia Total de 30 Dias</h2>
+                <p style="font-size: 1.2rem; margin: 20px 0;">Se você aplicar as estratégias do ebook e não conseguir gerar pelo menos o valor investido em 30 dias, devolvemos seus 2.500 Kzs integralmente!</p>
+                <p style="color: #666;">Sem perguntas, sem burocracia. Sua satisfação é nossa prioridade.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta" id="comprar">
+        <div class="container">
+            <h2>🚀 Comece Sua Transformação Agora!</h2>
+            
+            <div class="urgency">
+                <p><strong>⏰ OFERTA LIMITADA:</strong> Por apenas <strong>2.500 Kzs</strong> (valor normal 3.500 Kzs)</p>
+                <p>Esta promoção pode acabar a qualquer momento!</p>
+            </div>
+
+            <div style="margin: 40px 0;">
+                <span class="original-price">De: 3.500 Kzs</span>
+                <span class="price" style="font-size: 4rem;">2.500 Kzs</span>
+            </div>
+
+            <a href="https://pay.kuenha.com/c4c244bc-f445-47f9-9d4f-e91e9a313c24" target="_blank" class="cta-button" style="font-size: 1.5rem; padding: 25px 60px;">
+                💰 Comprar Agora por 2.500 Kzs
+            </a>
+
+            <p style="margin-top: 30px; opacity: 0.9;">✅ Acesso imediato após o pagamento<br>✅ Pagamento: Multicaixa ou Transferência<br>✅ Suporte via WhatsApp<br>✅ Garantia de 30 dias</p>
+        </div>
+    </section>
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/244935034042?text=Oi!%20Tenho%20interesse%20no%20ebook%20Como%20Ganhar%20Dinheiro%20com%20o%20Telefone%20em%20Angola.%20Gostaria%20de%20mais%20informações!" class="whatsapp-float">
+        📱
+    </a>
+
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Add scroll effect to header
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('.header');
+            if (window.scrollY > 100) {
+                header.style.background = 'rgba(255, 107, 107, 0.95)';
+            } else {
+                header.style.background = 'rgba(255, 255, 255, 0.1)';
+            }
+        });
+    </script>
+</body>
+</html>
