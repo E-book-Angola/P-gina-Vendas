@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-AO">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aprenda como ganhar dinheiro com seu smartphone em Angola. Guia prático com estratégias testadas para gerar 50.000 a 500.000 Kz mensais.">
+    <meta name="keywords" content="ganhar dinheiro Angola, smartphone, empreendedorismo digital, trabalho online, renda extra Angola">
     <title>Como Ganhar Dinheiro com o Telefone em Angola - Ebook 2024</title>
+    
     <style>
         * {
             margin: 0;
@@ -11,12 +14,15 @@
             box-sizing: border-box;
         }
 
+        html {
+            scroll-behavior: smooth;
+        }
+
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: Arial, sans-serif;
             line-height: 1.6;
             color: #333;
             background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
-            overflow-x: hidden;
         }
 
         .container {
@@ -40,7 +46,7 @@
         }
 
         .header h1 {
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             font-weight: bold;
         }
 
@@ -53,25 +59,7 @@
             overflow: hidden;
         }
 
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: -50%;
-            left: -50%;
-            width: 200%;
-            height: 200%;
-            background: radial-gradient(circle, rgba(255,107,107,0.1) 0%, transparent 70%);
-            animation: float 6s ease-in-out infinite;
-        }
-
-        @keyframes float {
-            0%, 100% { transform: translateY(0px) rotate(0deg); }
-            50% { transform: translateY(-20px) rotate(180deg); }
-        }
-
         .hero-content {
-            position: relative;
-            z-index: 2;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -86,8 +74,8 @@
         }
 
         .ebook-cover {
-            width: 320px;
-            height: 450px;
+            width: 300px;
+            height: 420px;
             background: linear-gradient(45deg, #ff6b6b, #ee5a24);
             border-radius: 15px;
             box-shadow: 0 25px 50px rgba(255,107,107,0.3);
@@ -97,13 +85,11 @@
             align-items: center;
             justify-content: center;
             color: white;
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             font-weight: bold;
             text-align: center;
-            padding: 40px 20px;
-            transform: perspective(1000px) rotateY(-10deg);
+            padding: 30px 20px;
             transition: transform 0.3s ease;
-            position: relative;
         }
 
         .ebook-cover::before {
@@ -112,12 +98,8 @@
             margin-bottom: 20px;
         }
 
-        .ebook-cover:hover {
-            transform: perspective(1000px) rotateY(0deg) scale(1.05);
-        }
-
         .hero h2 {
-            font-size: 3.2rem;
+            font-size: 3rem;
             margin-bottom: 20px;
             color: #333;
             font-weight: bold;
@@ -125,7 +107,7 @@
         }
 
         .hero .subtitle {
-            font-size: 1.4rem;
+            font-size: 1.3rem;
             color: #666;
             margin-bottom: 30px;
         }
@@ -142,7 +124,7 @@
         }
 
         .stat-number {
-            font-size: 2.5rem;
+            font-size: 2.2rem;
             font-weight: bold;
             color: #ff6b6b;
             display: block;
@@ -152,15 +134,14 @@
             font-size: 0.9rem;
             color: #666;
             text-transform: uppercase;
-            letter-spacing: 1px;
         }
 
         /* CTA Button */
         .cta-button {
             background: linear-gradient(45deg, #ff6b6b, #ee5a24);
             color: white;
-            padding: 20px 50px;
-            font-size: 1.3rem;
+            padding: 18px 45px;
+            font-size: 1.2rem;
             border: none;
             border-radius: 50px;
             cursor: pointer;
@@ -171,24 +152,6 @@
             transition: all 0.3s ease;
             font-weight: bold;
             text-transform: uppercase;
-            letter-spacing: 1px;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .cta-button::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: -100%;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
-            transition: left 0.5s;
-        }
-
-        .cta-button:hover::before {
-            left: 100%;
         }
 
         .cta-button:hover {
@@ -197,14 +160,14 @@
         }
 
         .price {
-            font-size: 3rem;
+            font-size: 2.8rem;
             font-weight: bold;
             color: #ff6b6b;
             margin: 20px 0;
         }
 
         .original-price {
-            font-size: 1.8rem;
+            font-size: 1.6rem;
             color: #999;
             text-decoration: line-through;
             margin-right: 10px;
@@ -218,7 +181,7 @@
 
         .problem h2 {
             text-align: center;
-            font-size: 2.8rem;
+            font-size: 2.5rem;
             margin-bottom: 40px;
             color: #333;
         }
@@ -256,7 +219,7 @@
 
         .benefits h2 {
             text-align: center;
-            font-size: 2.8rem;
+            font-size: 2.5rem;
             margin-bottom: 60px;
             color: #333;
         }
@@ -281,13 +244,13 @@
         }
 
         .benefit-icon {
-            font-size: 2.5rem;
+            font-size: 2.2rem;
             margin-bottom: 15px;
             color: #ff6b6b;
         }
 
         .benefit-card h3 {
-            font-size: 1.4rem;
+            font-size: 1.3rem;
             margin-bottom: 15px;
             color: #333;
         }
@@ -301,7 +264,7 @@
 
         .success-stories h2 {
             text-align: center;
-            font-size: 2.8rem;
+            font-size: 2.5rem;
             margin-bottom: 60px;
         }
 
@@ -348,7 +311,7 @@
         }
 
         .story-result {
-            font-size: 1.8rem;
+            font-size: 1.6rem;
             font-weight: bold;
             color: #ffeb3b;
             margin: 15px 0;
@@ -362,7 +325,7 @@
 
         .contents h2 {
             text-align: center;
-            font-size: 2.8rem;
+            font-size: 2.5rem;
             margin-bottom: 60px;
             color: #333;
         }
@@ -399,7 +362,7 @@
         }
 
         .chapter-card h3 {
-            font-size: 1.3rem;
+            font-size: 1.2rem;
             margin-bottom: 10px;
             color: #333;
         }
@@ -440,7 +403,7 @@
         }
 
         .final-cta h2 {
-            font-size: 3rem;
+            font-size: 2.8rem;
             margin-bottom: 30px;
         }
 
@@ -452,38 +415,7 @@
             font-size: 1.1rem;
         }
 
-        /* Responsive */
-        @media (max-width: 768px) {
-            .hero-content {
-                flex-direction: column;
-                text-align: center;
-            }
-
-            .hero-text {
-                text-align: center;
-            }
-
-            .hero h2 {
-                font-size: 2.5rem;
-            }
-
-            .stats {
-                justify-content: center;
-            }
-
-            .ebook-cover {
-                width: 280px;
-                height: 390px;
-            }
-
-            .chapters-grid,
-            .benefits-grid,
-            .problem-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-
-        /* Floating WhatsApp */
+        /* WhatsApp Float */
         .whatsapp-float {
             position: fixed;
             width: 60px;
@@ -497,33 +429,142 @@
             font-size: 30px;
             box-shadow: 2px 2px 3px #999;
             z-index: 100;
-            animation: pulse 2s infinite;
             display: flex;
             align-items: center;
             justify-content: center;
             text-decoration: none;
+            animation: pulse 2s infinite;
         }
 
         @keyframes pulse {
-            0% {
-                transform: scale(1);
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.1rem;
             }
-            50% {
-                transform: scale(1.1);
+            
+            .hero {
+                padding: 100px 0 60px;
             }
-            100% {
-                transform: scale(1);
+
+            .hero-content {
+                flex-direction: column;
+                text-align: center;
+                gap: 30px;
+            }
+
+            .hero-text {
+                text-align: center;
+                order: 2;
+            }
+
+            .hero h2 {
+                font-size: 2.2rem;
+            }
+
+            .hero .subtitle {
+                font-size: 1.1rem;
+            }
+
+            .ebook-cover {
+                width: 250px;
+                height: 350px;
+                order: 1;
+                font-size: 0.95rem;
+            }
+
+            .stats {
+                justify-content: center;
+                gap: 20px;
+            }
+
+            .stat-number {
+                font-size: 1.8rem;
+            }
+
+            .chapters-grid,
+            .benefits-grid,
+            .problem-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .cta-button {
+                padding: 15px 30px;
+                font-size: 1rem;
+            }
+
+            .price {
+                font-size: 2.2rem;
+            }
+
+            .original-price {
+                font-size: 1.3rem;
+            }
+
+            .problem h2,
+            .benefits h2,
+            .success-stories h2,
+            .contents h2 {
+                font-size: 2rem;
+            }
+
+            .final-cta h2 {
+                font-size: 2.3rem;
+            }
+
+            .container {
+                padding: 0 15px;
+            }
+
+            .whatsapp-float {
+                width: 50px;
+                height: 50px;
+                bottom: 20px;
+                right: 20px;
+                font-size: 24px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero h2 {
+                font-size: 1.8rem;
+            }
+
+            .ebook-cover {
+                width: 220px;
+                height: 310px;
+            }
+
+            .price {
+                font-size: 2rem;
+            }
+
+            .problem h2,
+            .benefits h2,
+            .success-stories h2,
+            .contents h2 {
+                font-size: 1.8rem;
+            }
+
+            .final-cta h2 {
+                font-size: 2rem;
             }
         }
     </style>
 </head>
 <body>
     <!-- Header -->
-    <div class="header">
+    <header class="header">
         <div class="container">
             <h1>📱 Como Ganhar Dinheiro com o Telefone em Angola</h1>
         </div>
-    </div>
+    </header>
 
     <!-- Hero Section -->
     <section class="hero">
@@ -557,7 +598,7 @@
                 </div>
                 
                 <div class="ebook-cover">
-                    <div style="text-align: center;">
+                    <div>
                         <h3>COMO GANHAR DINHEIRO COM O TELEFONE EM ANGOLA</h3>
                         <p style="margin: 20px 0; opacity: 0.9;">EDIÇÃO 2024</p>
                         <p style="font-size: 1rem;">Guia Prático e Testado</p>
@@ -773,7 +814,7 @@
     </section>
 
     <!-- Final CTA -->
-    <section class="final-cta" id="comprar">
+    <section class="final-cta">
         <div class="container">
             <h2>🚀 Comece Sua Transformação Agora!</h2>
             
@@ -784,42 +825,34 @@
 
             <div style="margin: 40px 0;">
                 <span class="original-price">De: 3.500 Kzs</span>
-                <span class="price" style="font-size: 4rem;">2.500 Kzs</span>
+                <span class="price" style="font-size: 3.5rem;">2.500 Kzs</span>
             </div>
 
-            <a href="https://pay.kuenha.com/c4c244bc-f445-47f9-9d4f-e91e9a313c24" target="_blank" class="cta-button" style="font-size: 1.5rem; padding: 25px 60px;">
-                💰 Comprar Agora por 2.500 Kzs
-            </a>
+            <a href="https://pay.kuenha.com/c4c244bc-f445-47f9-9d4f-e91e9a313c24" target="_blank" class="cta-button" style="font-size: 1.4rem; padding: 22px 50px;">💰 Comprar Agora por 2.500 Kzs</a>
 
             <p style="margin-top: 30px; opacity: 0.9;">✅ Acesso imediato após o pagamento<br>✅ Pagamento: Multicaixa ou Transferência<br>✅ Suporte via WhatsApp<br>✅ Garantia de 30 dias</p>
         </div>
     </section>
 
-    <!-- Floating WhatsApp -->
-    <a href="https://wa.me/244935034042?text=Oi!%20Tenho%20interesse%20no%20ebook%20Como%20Ganhar%20Dinheiro%20com%20o%20Telefone%20em%20Angola.%20Gostaria%20de%20mais%20informações!" class="whatsapp-float">
-        📱
-    </a>
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/244935034042?text=Oi!%20Tenho%20interesse%20no%20ebook%20Como%20Ganhar%20Dinheiro%20com%20o%20Telefone%20em%20Angola.%20Gostaria%20de%20mais%20informações!" class="whatsapp-float" target="_blank">📱</a>
 
     <script>
         // Smooth scrolling
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
             });
         });
 
-        // Add scroll effect to header
+        // Header scroll effect
         window.addEventListener('scroll', function() {
             const header = document.querySelector('.header');
             if (window.scrollY > 100) {
                 header.style.background = 'rgba(255, 107, 107, 0.95)';
-            } else {
-                header.style.background = 'rgba(255, 255, 255, 0.1)';
-            }
-        });
-    </script>
-</body>
-</html>
